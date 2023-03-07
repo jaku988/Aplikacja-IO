@@ -17,3 +17,5 @@ Lista:
 16. Usuń komentarze
 17. Obserwacja użytkowników
 18. Makro oraz kcal dania
+
+mssql, asp.net, c#, 
