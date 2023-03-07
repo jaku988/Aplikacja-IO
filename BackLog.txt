@@ -1,0 +1,19 @@
+Lista:
+1. Rejestracja
+2. Wyloguj/zaloguj
+3. Usuń konto
+4. Dodaj przepis
+5. Usuń przepis
+6. Ocen przepis
+7. Edytuj przepis
+8. Tryb ciemny
+9. Edytuj konto
+10. Komentarze przepisów
+11. Wyszukaj przepis
+12. Moja lodówka
+13. Przepis dla moja lodówka
+14. Przepisy do których mało brakuje
+15. Edytuj komentarze
+16. Usuń komentarze
+17. Obserwacja użytkowników
+18. Makro oraz kcal dania
