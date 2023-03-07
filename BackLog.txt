@@ -1,10 +1,10 @@
 Lista:
 1. Rejestracja
-2. Wyloguj/zaloguj
+2. Zaloguj/wyloguj
 3. Usuń konto
 4. Dodaj przepis
 5. Usuń przepis
-6. Ocen przepis
+6. Oceń przepis
 7. Edytuj przepis
 8. Tryb ciemny
 9. Edytuj konto
@@ -12,7 +12,7 @@ Lista:
 11. Wyszukaj przepis
 12. Moja lodówka
 13. Przepis dla moja lodówka
-14. Przepisy do których mało brakuje
+14. Przepisy, do których mało brakuje
 15. Edytuj komentarze
 16. Usuń komentarze
 17. Obserwacja użytkowników
