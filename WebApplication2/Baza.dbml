@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Aplikacja" Class="BazaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Potrawa" Member="Potrawa">
+    <Type Name="Potrawa">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nazwa" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UzytkownikId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="uzytkownicy_Potrawa" Member="uzytkownicy" ThisKey="UzytkownikId" OtherKey="id_uzytkownika" Type="uzytkownicy" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.uzytkownicy" Member="uzytkownicy">
+    <Type Name="uzytkownicy">
+      <Column Name="id_uzytkownika" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="imie" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="nazwisko" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="data_urodzenia" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="login" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="haslo" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="plec" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="uzytkownicy_Potrawa" Member="Potrawa" ThisKey="id_uzytkownika" OtherKey="UzytkownikId" Type="Potrawa" />
+    </Type>
+  </Table>
+</Database>

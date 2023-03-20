@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Baza">
+  <DataContextMoniker Name="/BazaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="95828558-c4c3-4ffe-9c89-774e552bb7f3" absoluteBounds="3.5, 1.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/BazaDataContext/Potrawa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cecd4bd4-f5e1-425a-a933-4806737c5216" absoluteBounds="3.515, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="be5ed817-0ba8-4449-8082-d38d2e945ced" absoluteBounds="0.75, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/BazaDataContext/uzytkownicy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="831fe327-fd39-4e1b-8c8f-65cf9ac4b728" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.06814697265625); (3.5 : 2.06814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BazaDataContext/uzytkownicy/uzytkownicy_Potrawa" />
+      <nodes>
+        <classShapeMoniker Id="be5ed817-0ba8-4449-8082-d38d2e945ced" />
+        <classShapeMoniker Id="95828558-c4c3-4ffe-9c89-774e552bb7f3" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
